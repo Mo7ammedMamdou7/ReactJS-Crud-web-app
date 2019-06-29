@@ -1,0 +1,53 @@
+ul{
+    width: 100%;
+    padding-left: 0px;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    height: 30px;
+    border-top: 1px solid #ddd;
+    padding: 10px 0px;
+}
+ul li span{
+    width: 80%;
+    text-align: left;
+    font-weight: 700
+}
+ul li button{
+    width: 10%;
+    color: #fff;
+    background-color: teal;
+    border: 1px solid teal;
+    margin-left: 5px;
+    cursor: pointer;
+}
+ul li button:hover{
+    font-weight: 700;
+    background-color: transparent;
+    color: teal;
+}
+ul li form{
+    width: 100%;
+    display: flex
+}
+ul li form input{
+    width: 85%;
+    border: 0;
+    height: 30px;
+    text-indent: 10px;
+}
+ul li form button{
+    width: 15%;
+    border: 0;
+    height: 32px;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    color: #000;
+    margin-left: 0px;
+    font-weight: 700
+}
+ul li form button:hover{
+    background-color: rgb(212, 156, 12);
+    color: #000;
+}

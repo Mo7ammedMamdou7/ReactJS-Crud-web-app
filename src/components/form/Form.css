@@ -1,0 +1,23 @@
+form {
+    width: 100%;
+    display: flex
+}
+form input{
+    width: 85%;
+    border: 0;
+    height: 30px;
+    text-indent: 10px;
+}
+form button{
+    width: 15%;
+    border: 0;
+    height: 32px;
+    cursor: pointer;
+    background-color: #555;
+    color: #eee;
+    font-weight: 700
+}
+form button:hover{
+    background-color: #000;
+    color: #eee;
+}
